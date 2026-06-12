@@ -1,2 +1,34 @@
-# Secure-File-Transfer-System
-A secure client-server file transfer system developed in Python using TCP sockets, AES encryption, and user authentication for secure data transmission.
+# Secure File Transfer System
+
+## Overview
+A secure client-server based file transfer system developed using Python. The project enables secure file transmission over a network using AES encryption and user authentication.
+
+## Features
+- Secure file transfer using TCP sockets
+- AES encryption using Fernet
+- User authentication
+- Reliable data transmission
+- File encryption and decryption
+- Client-server architecture
+
+## Technologies Used
+- Python
+- Socket Programming
+- Cryptography Library
+- TCP/IP Networking
+
+## Project Structure
+
+Secure-File-Transfer-System/
+│
+├── client.py
+├── server.py
+├── file.txt
+├── received.txt
+
+## Installation
+
+Install required library:
+
+```bash
+pip install cryptography
